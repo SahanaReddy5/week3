@@ -1,0 +1,22 @@
+<html>
+<body>
+<script>
+let person = {
+    firstName: 'Sahana',
+    lastName: 'Reddy',
+    middleName:'k',
+    currentAge: 20
+};
+
+let {
+    firstName,
+    lastName,
+    middleName = '',
+    currentAge: age = 19
+} = person;
+
+console.log(middleName); 
+console.log(age); 
+</script>
+</body>
+</html>
